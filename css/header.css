@@ -1,0 +1,39 @@
+.header{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+}
+
+
+
+.logo--header{
+
+}
+
+
+.header__input{
+    font-family: FontAwesome,  Verdana, sans-serif;
+    font-size: 0.7rem;
+    padding:1rem;
+    border-radius: 2rem;
+    background: #e9e7e7;
+    border:none;
+    width:15rem;
+}
+
+::placeholder{
+    color:#bebebe;
+    }
+
+.header__login{
+    padding:0.6rem 3rem;
+    color:rgb(5, 5, 245);
+    border:1px solid rgb(5,5,245);
+    background: #fff;
+}
+
+.button{
+
+}
