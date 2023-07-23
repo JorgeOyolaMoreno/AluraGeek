@@ -1,5 +1,6 @@
 .contacto{
     width:100%;
+    max-width: 1200px;
     height:240px;
     display: flex;
     padding: 4rem;
@@ -9,13 +10,11 @@
 }
 
 .logo--contacto{
-    width: 176px;
+    width: 100%;
+    max-width: 176px;
     height:50px;
 }
 
-.contacto__lista{
-
-}
 
 .contacto__lista__item{
     margin-bottom: 1.5rem;
@@ -29,7 +28,7 @@
 .contacto__form{
     display: flex;
     flex-direction: column;
-    width:35rem;
+    width:50%;
     height: 240px;
 }
 .contacto__form__formulario{
@@ -51,7 +50,7 @@
 .contacto__form__textarea{
     margin-bottom: 1rem;
     padding: 1rem;
-    min-width: 100%;
+    min-width: 90%;
     min-height: 5rem;
     border:none;
 
@@ -60,7 +59,26 @@
 .contacto__form__submit{
     margin-left: 0;
     margin-top: 0;
-    width: 144px;
+    width: 90%;
     border:none;
 
 }
+
+@media (max-width: 768px){
+   .contacto{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:2rem auto;
+    padding: 0;
+    height:auto;
+    align-items: center;
+}
+
+    
+
+.contacto__form{
+   flex-direction: column;
+    margin-top: 1rem;
+    width: 80%;
+
+}}
