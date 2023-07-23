@@ -1,0 +1,8 @@
+.footer{
+    text-align: center;
+    height: 102px;
+}
+
+.footer__texto{
+    padding: 2rem;
+}

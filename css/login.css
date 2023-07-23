@@ -1,0 +1,29 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    margin: auto;
+    width: 450px;
+    
+}
+
+.login__texto{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:1rem;
+}
+
+.login__input{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border:none;
+    border-bottom: 1px solid #ccc;
+}
+
+.login__submit{
+    padding:1rem;
+    border:none;
+    color:#fff;
+    background: #2A7AE4;
+    cursor: pointer;
+}
