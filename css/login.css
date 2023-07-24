@@ -27,3 +27,15 @@
     background: #2A7AE4;
     cursor: pointer;
 }
+
+
+@media (max-width: 768px){
+    .login{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin: auto;
+        width: 90%;
+        
+    }
+}
