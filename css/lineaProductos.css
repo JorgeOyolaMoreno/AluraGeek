@@ -73,6 +73,12 @@
         width:136px;
         height: 134px;
     }
+    .lineaProductos__productos{
+        display:flex;
+        gap:1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
 }
 @media (max-width: 376px){
