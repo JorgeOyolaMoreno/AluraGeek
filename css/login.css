@@ -33,7 +33,7 @@
     .login{
         display: flex;
         flex-direction: column;
-        padding: 1rem;
+        padding: 3rem 1rem;
         margin: auto;
         width: 90%;
         
